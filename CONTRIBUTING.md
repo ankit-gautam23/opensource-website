@@ -88,3 +88,25 @@ Updating the Forked and Local Repository
 As updates are made to the original codebase, it is essential to keep your forked and local repositories up-to-date. To update the forked repository, use the `git fetch` command to fetch the changes from the upstream repository. Then, use the git merge command to merge the changes into your local repository. Finally, use the `git push` command to push the changes to your forked repository.
 
 To update the local repository, use the `git pull` command to fetch and merge the changes from the upstream repository into your local repository.
+
+##Best Practices 
+
+ - Clone the repository to your local machine using a Git client. This allows you to work on the code locally and push changes back to the remote repository.
+
+ - Create a new branch for your changes. This keeps your changes separate from the main branch, making it easier to review and merge your code.
+
+ - Use descriptive and clear commit messages. This helps others understand the purpose of your changes and makes it easier to review the code.
+
+ - Pull the latest changes from the remote repository before pushing your changes. This helps to avoid conflicts and ensures that you're working with the most up-to-date code.
+
+ - Push your changes to the remote repository when you're finished. Make sure to include any necessary documentation and tests.
+
+ - Review pull requests from other contributors in a timely and respectful manner. Provide constructive feedback and be willing to collaborate to ensure the code meets the organization's standards.
+
+ - Communicate clearly and professionally with other contributors. This includes using a respectful tone, asking for clarification when needed, and being receptive to feedback.
+
+ - Follow the organization's coding standards and conventions. This includes using consistent naming conventions, formatting, and documentation.
+
+ **NOTE:** If you are new to contributing in any org, follow a standard while creating branch for resolving any issue. USERNAME/issue#issuenumber
+
+By following these best practices, you can contribute to an organization's codebase in a way that is efficient, effective, and respectful to other contributors.
